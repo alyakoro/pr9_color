@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
         bindingv.ok.setOnClickListener {
             val color = Color.rgb(
-                bindingv.R.text.toString().toInt(),
+                bindingv.RR.text.toString().toInt(),
                 bindingv.G.text.toString().toInt(),
                 bindingv.B.text.toString().toInt()
             )
