@@ -21,7 +21,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/colorbutton"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:text="PICK COLOR" />
@@ -44,6 +44,7 @@
             android:padding="30dp">
 
             <LinearLayout
+                android:id="@+id/color_bg"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="#F0F0F0"
