@@ -42,6 +42,10 @@ class MainActivity : AppCompatActivity() {
             dialog.dismiss()
         }
 
+        bindings.cancel.setOnClickListener {
+            dialog.dismiss()
+        }
+
         bindings.RED.setOnSeekBarChangeListener(createSeekBarChangeListener(bindings.RR))
         bindings.GREEBN.setOnSeekBarChangeListener(createSeekBarChangeListener(bindings.G))
         bindings.BLUE.setOnSeekBarChangeListener(createSeekBarChangeListener(bindings.B))
