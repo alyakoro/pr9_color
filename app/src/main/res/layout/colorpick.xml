@@ -25,7 +25,8 @@
         <SeekBar
             android:id="@+id/RED"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:max="255" />
 
         <EditText
             android:id="@+id/G"
