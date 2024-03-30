@@ -40,7 +40,8 @@
         <SeekBar
             android:id="@+id/GREEBN"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:max="255" />
 
         <EditText
             android:id="@+id/B"
@@ -54,7 +55,8 @@
         <SeekBar
             android:id="@+id/BLUE"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:max="255" />
 
         <LinearLayout
             android:layout_width="match_parent"

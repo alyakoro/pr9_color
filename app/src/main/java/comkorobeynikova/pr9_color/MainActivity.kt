@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setColor(red: Int, green: Int, blue: Int) {
         val color = Color.rgb(red, green, blue)
-        binding.colorBg.(color)
+        binding.colorBg.setBackgroundColor(color)
     }
 }
 
